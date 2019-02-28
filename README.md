@@ -1,0 +1,5 @@
+- Create .env file
+  - set POSTGRES_DB to database name
+- docker-compose up
+- knex migrate:latest
+- node index.js
