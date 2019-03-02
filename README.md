@@ -7,6 +7,5 @@
 ### Changes:
 - POSTGRES_DB is now the name of the db to use.
 - Connecting to the db can be done via:
- - `psql -h localhost -U username -d database_name`
  - using postbird: https://github.com/paxa/postbird
 - knexfile and dotenv is used to declare credentials
