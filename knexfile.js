@@ -1,8 +1,8 @@
 // Update with your config settings.
-require('dotenv').config();
+require("dotenv").config();
 
 module.exports = {
-  client: 'pg',
+  client: "pg",
   connection: {
     database: process.env.POSTGRES_DB,
     user: process.env.POSTGRES_USER,
@@ -13,6 +13,6 @@ module.exports = {
     max: 10
   },
   migrations: {
-    tableName: 'knex_migrations'
+    tableName: "knex_migrations"
   }
 };
